@@ -1,6 +1,13 @@
-import * as Hero from '../heroes';
+import Hero from '../heroes';
+
 
 const heroList = test.each([
+  /* TODO:[a, b, c]
+  *  the 'a' title a string containing a 'False' word  we must to be see in console.
+  *  'b' - it is Arry[]-data.
+  * 'c' - it's a string. Thach should be see of a answered.
+  */
+
   ['healthy 49 False', { name: 'Маг1', health: 49 }, 'healthy'],
   ['healthy 51 True', { name: 'Маг2', health: 51 }, 'healthy'],
   ['healthy 100 True', { name: 'Маг3', health: 100 }, 'healthy'],
